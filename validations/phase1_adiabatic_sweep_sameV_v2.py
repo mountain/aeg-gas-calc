@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+
 """
 Phase 1 — Adiabatic compression sweep (N‑扩展 + 同终点压缩)
 v2: 端帽“机械压力”与端帽冲量平滑、必过线#3改用机械压力
@@ -27,8 +27,6 @@ v2: 端帽“机械压力”与端帽冲量平滑、必过线#3改用机械压�
   - maturin develop -m pyproject.toml  (安装 gassim)
   - numpy, matplotlib
 """
-
-from __future__ import annotations
 
 import argparse
 import csv
