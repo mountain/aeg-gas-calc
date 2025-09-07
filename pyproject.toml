@@ -7,5 +7,6 @@ dependencies = [
     "numpy",
     "matplotlib",
     "scipy",
-    "gassim"
+    "gassim",
+    "pandas>=2.3.2",
 ]
